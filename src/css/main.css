@@ -16,3 +16,101 @@ video {
 label {
   display: block;
 }
+
+.plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background: #f9f9f9;
+  padding: 50px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+label {
+  font-weight: 400;
+  font-size: 16px;
+  color: #555555;
+}
+
+form {
+  width: 400px;
+  height: 350px;
+  top: 50px;
+  left: 50px;
+  padding: 32px;
+  gap: 16px;
+  border-radius: 32px;
+  border: 1px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* input */
+
+input {
+  width: 336px;
+  height: 40px;
+  top: 20px;
+  left: 20px;
+  padding: 12px;
+  gap: 0px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  opacity: 0px;
+}
+
+input:hover {
+  background: #eeeeee;
+  border: 1px solid #000000;
+}
+
+.login-input {
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.login-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* button */
+
+button {
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  background: #1576ea;
+  color: white;
+  width: 336px;
+  height: 40px;
+  top: 20px;
+  left: 20px;
+  gap: 0px;
+  border-radius: 4px;
+  border: none;
+  opacity: 0px;
+}
+
+button:hover {
+  background: black;
+}
